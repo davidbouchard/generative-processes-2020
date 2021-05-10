@@ -1,0 +1,180 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0; 
+}
+
+a.normal { 
+  color: black;
+}
+
+a {  
+  color: white;
+}
+
+header {
+  font-style: bold;
+  color: white;
+  padding-bottom: 0.5em;
+}
+
+h2 { 
+  color: white;
+}
+
+.container {  
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+
+.item {  
+  padding: 0;
+  display: block;
+  min-width:200px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.item:hover { 
+  text-decoration: underline;
+   
+}
+ 
+.dashedbox { 
+  width: 150px;
+  height: 150px;
+  border: 1px dashed;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+div { 
+  padding: 1em;
+}
+ 
+.intro { 
+  background: white;
+  margin: auto;
+  max-width: 1024px;
+}
+
+.remix {   
+  background: gray;
+  color: black;
+}
+
+.blanks {
+  background: gray;
+  max-width: 1024px;
+  margin: auto;
+}
+
+ 
+iframe, .interactive-frame { 
+  width: 150px;
+  height: 150px;
+  border: 0;
+  pointer-events: none;
+}
+
+.interactive-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+iframe.interactive {
+  pointer-events: initial;
+  cursor: crosshair;
+}
+
+.interactive-frame {
+  position: relative;
+}
+.interactive-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+
+/*
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+}
+
+
+.box {
+  padding: 1em; 
+  text-align: left;
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+  text-decoration: none;
+  min-height: 150px;
+  border: 1px;
+}
+
+.remix { 
+  border: 1px dashed;
+  width: 150px;
+  height: 150px;  
+}
+
+iframe { 
+  border: 1px; 
+  margin: 0 auto;
+  width: 150px; 
+  height: 150px; 
+  display: flex;
+  text-align: center;
+  position: relative;
+}
+
+/*
+iframe, .interactive-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 0;
+  margin: 0 auto;
+  pointer-events: none;
+  width: 200px;
+  height: 200px;
+}
+
+
+iframe.interactive {
+  pointer-events: initial;
+  cursor: crosshair;
+}
+
+.interactive-frame {
+  position: relative;
+}
+.interactive-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 0, 0, 0.25);
+  cursor: pointer;
+}
+*/
